@@ -1,0 +1,131 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body {
+    font-family: 'Arial',sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9c4c4;
+    color: #333;
+}
+
+header {
+    background: #833636;
+    color: #c25757;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.headerlist{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(194, 91, 91);
+}
+
+.content-section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 2px solid #333;
+}
+
+#home {
+    background-color: #ffeded;
+    text-align: center;
+    padding: 100px 20px;
+    height: 600px;
+}
+
+.myself-content {
+    margin-bottom: 20px;
+    display: inline-block;
+    height: 300px;
+    padding-top: 100px;
+
+}
+
+.social-links a {
+    color: #3498db;
+    font-size: 2rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #e74c3c;
+}
+
+.project-card {
+    border: 2px solid #c14848;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #ffeded;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #833636;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+
+nav {
+    flex-direction: column;
+    align-items: center;
+}
+
+.profpic{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    float: right;
+    vertical-align: middle;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+}
+
+.profpicdiv{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.mainheading{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.subheading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+#myname{
+    font-weight: 900;
+}

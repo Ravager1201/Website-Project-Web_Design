@@ -53,11 +53,11 @@ nav a:hover {
 }
 
 #home {
-    background-image: url(backgroundforproject.jpg);
+    background-image: url(https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/1199486911_ch0wo8?_a=BAVAZGID0);
     background-attachment: fixed;
     text-align: center;
     padding: 100px 20px;
-    height: 600px;
+    background-size: cover;
 }
 
 

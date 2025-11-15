@@ -53,11 +53,13 @@ nav a:hover {
 }
 
 #home {
-    background-color: #ffeded;
+    background-image: url(backgroundforproject.jpg);
+    background-attachment: fixed;
     text-align: center;
     padding: 100px 20px;
     height: 600px;
 }
+
 
 .myself-content {
     margin-bottom: 20px;
@@ -119,11 +121,13 @@ nav {
 .mainheading{
     font-size: 60px;
     font-weight: 500;
+    color: black;
 }
 
 .subheading{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
+    color: black;
 }
 
 #myname{
